@@ -1,10 +1,10 @@
 {
   "name": "projeto5",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Um conversor de moedas com ajuda da API AwesomeAPI, link das moedas para teste: https://economia.awesomeapi.com.br/xml/available",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node script.js"
   },
   "repository": {
     "type": "git",
