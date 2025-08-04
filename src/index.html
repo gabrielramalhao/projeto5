@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Conversor de Moedas</h1>
+
+      <form id="form">
+        <label for="currency">Escolha o par de moedas para comparar:</label>
+        <select id="currency">
+          <option value="USD-BRL">USD → BRL (Dólar / Real)</option>
+          <option value="USD-EUR">USD → EUR (Dólar / Euro)</option>
+          <option value="USD-GBP">USD → GBP (Dólar / Libra)</option>
+          <option value="USD-JPY">USD → JPY (Dólar / Iene)</option>
+          <option value="USD-CNY">USD → CNY (Dólar / Yuan)</option>
+        </select>
+        <button type="submit">Consultar</button>
+      </form>
+
+      <div id="result" class="hidden">
+        <p><strong>Moedas:</strong> <span id="moeda"></span></p>
+        <p><strong>Valor:</strong> <span id="valor"></span></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
